@@ -1,4 +1,6 @@
 import React from 'react'
+import TodoList from './features/todos/TodoList';
+import User from './features/user/User';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       </nav>
       <section>
         <h2>Welcome to the Redux Fundamentals example app!</h2>
+        <TodoList />
+        <User />
       </section>
     </div>
   )
